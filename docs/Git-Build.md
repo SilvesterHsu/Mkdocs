@@ -28,6 +28,18 @@ INFO    -  Cleaning site directory
 Open up `http://127.0.0.1:8000/` in your browser, and you'll see the default home page being displayed:
 ![Git-Build-04](img/Git-Build-04.png)
 
+> You could also use `mkdocs serve -a <yourhost>:<port>` to specify the serve.
+
+Example:
+```
+$ mkdocs serve -a 0.0.0.0:8000
+INFO    -  Building documentation...
+INFO    -  Cleaning site directory
+[I 190414 02:43:38 server:298] Serving on http://0.0.0.0:8000
+[I 190414 02:43:38 handlers:59] Start watching changes
+[I 190414 02:43:38 handlers:61] Start detecting changes
+```
+
 ## Git Initialization
 Enter `<your project>` folder through the terminal.
 ```
