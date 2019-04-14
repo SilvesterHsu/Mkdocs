@@ -1,0 +1,18 @@
+site_name: My Docs
+nav:
+    - Introduction: index.md
+    - Steps:
+        - Environment: Environment.md
+        - Mkdocs Project Build: Git-Build.md
+        - Travis Setting: Travis-Setting.md
+        - Travis Build: Travis-Build.md
+        - GitHub Pages: GitHub-Pages.md
+    - About: about.md
+theme:
+  name: readthedocs
+extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+markdown_extensions:
+    - toc:
+        baselevel: 3
+    - mdx_math
