@@ -15,7 +15,7 @@ brew install git
 > No need to update. It will update automatically before any installation.
 
 ## Atom Installation
-Go to the [Atom](https://atom.io/) to download the latest version.
+Go to the [Atom](https://atom.io/) to download the latest version.
 And also install essential packages:
 ```
 language-markdown
