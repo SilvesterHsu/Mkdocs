@@ -8,6 +8,7 @@ nav:
         - Travis Build: Travis-Build.md
         - GitHub Pages: GitHub-Pages.md
         - Math Support: Math-Support.md
+        - Extensions: Extensions.md
     - About: about.md
 theme:
   name: readthedocs
@@ -16,4 +17,9 @@ extra_javascript:
 markdown_extensions:
     - toc:
         baselevel: 3
+        permalink: true
     - mdx_math
+    - pymdownx.arithmatex
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences 

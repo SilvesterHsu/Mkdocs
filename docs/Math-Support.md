@@ -1,4 +1,4 @@
-## Math Support
+# Math Support
 The PyMdown Extensions package can be installed with the following command:
 ```
 pip install pymdown-extensions
@@ -23,7 +23,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 ```
-### Arithmatex MathJax¶
+## Arithmatex MathJax
 Arithmatex integrates Material with MathJax which parses block-style and inline equations written in TeX markup and outputs them in mathematical notation. See this thread for a short introduction and quick reference on how to write equations in TeX syntax.
 
 Besides activating the extension in the `mkdocs.yml`, the MathJax JavaScript runtime needs to be included. This must be done with additional JavaScript:
@@ -31,3 +31,34 @@ Besides activating the extension in the `mkdocs.yml`, the MathJax JavaScript run
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 ```
+
+## Usage
+### Inline Tex
+
+**Example:**
+
+```
+This is an example: $\LaTeX$
+```
+
+**Result:**
+
+This is an example: $\LaTeX$
+
+### Blocks Tex
+
+**Example:**
+
+```
+This is an example:
+$$
+\LaTeX
+$$
+```
+
+**Result:**
+
+This is an example:
+$$
+\LaTeX
+$$
