@@ -38,12 +38,12 @@ extra_javascript:
 **Example:**
 
 ```
-This is an example: $\LaTeX$
+This is an example: $x^2+y^2=1$
 ```
 
 **Result:**
 
-This is an example: $\LaTeX$
+This is an example: $x^2+y^2=1$
 
 ### Blocks Tex
 
