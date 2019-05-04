@@ -12,7 +12,7 @@ extra:
     language: 'ja'
 ```
 ## Docker
-可通过Docker进行快速编写，默认自动开启实时反馈
+可通过Docker进行快速编写，默认开启实时反馈
 [mkdocs](https://cloud.docker.com/u/silvesterhsu/repository/docker/silvesterhsu/mkdocs)
 ```
 docker pull silvesterhsu/mkdocs:latest
