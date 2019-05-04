@@ -22,8 +22,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  name: $GIT_NAME
-  email: $GIT_EMAIL
   local_dir: site
   on:
     branch: master
